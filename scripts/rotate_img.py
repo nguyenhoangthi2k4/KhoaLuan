@@ -23,7 +23,7 @@ def rotate_images_in_directory(directory, angle):
             img = Image.open(source_path)
             rotated = img.rotate(angle, expand=True)
             rotated.save(save_path)
-            print(f"Đã xoay: {filename}")
+            #print(f"Đã xoay: {filename}")
         except Exception as e:
             print(f"Lỗi với {filename}: {e}")
 

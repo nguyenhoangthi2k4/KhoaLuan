@@ -22,8 +22,8 @@ def rename_images_in_directory(directory):
 
 if __name__ == "__main__":
     global name
-    name = input("Enter the base name for the images (default is 'image'): ") or "image"
+    name = input("Nhập tên cần thay đổi (default is 'image'): ") or "image"
     current_directory = os.path.dirname(os.path.abspath(__file__))
     rename_images_in_directory(current_directory)
 
-    print("Renaming completed.")
+    print("Hoàn tất.")

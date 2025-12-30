@@ -38,7 +38,8 @@ Do đặc thù dữ liệu nông nghiệp khan hiếm, dự án được thực 
 │   └── main.py
 ├── data/                   # Quản lý dữ liệu 
 │   ├── raw/                # Ảnh gốc 
-│   └── processed/          # Dữ liệu sau augmentation
+|   ├── interim/            # Ảnh trung gian 
+│   └── processed/          # Dữ liệu sau Augmentation
 ├── docs/                   # Báo cáo PDF và Slide
 ├── models/                 # Lưu trữ file trọng số (.h5, .pth)
 ├── notebooks/              # Quá trình thực nghiệm (Google Colab)

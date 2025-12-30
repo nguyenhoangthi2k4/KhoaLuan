@@ -1,5 +1,6 @@
 #Dataset
 data/raw
+data/interim
 data/processed
 
 #Weights
