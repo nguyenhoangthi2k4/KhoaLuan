@@ -5,7 +5,11 @@ data/raw/Healthy
 data/raw/Mosaic_Virus
 
 data/interim
-data/processed
+
+data/processed/Anthracnose
+data/processed/Downy_Mildew
+data/processed/Healthy
+data/processed/Mosaic_Virus
 
 #Weights
 models/weights/*.h5
