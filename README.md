@@ -18,16 +18,16 @@ Khóa luận này tập trung vào việc nghiên cứu và xây dựng mô hìn
 
 Do đặc thù dữ liệu nông nghiệp khan hiếm, dự án được thực hiện qua quy trình làm giàu dữ liệu nghiêm ngặt:
 
-- Dữ liệu gốc: X ảnh thu thập từ thực tế
-- Tiền xử lý:
-+ Sử dụng các scripts Python để đổi tên và xoay ảnh ($90^\circ, 180^\circ, 270^\circ$)
-+ Sử dụng Roboflow để tăng cường dữ liệu (Augmentation): Lật, thay đổi độ sáng, thêm nhiễu, ...
-- Tổng quan dữ liệu sau khi tăng cường: ~ X ảnh
-- Các lớp ảnh nhận diện: 
-+ Anthracnose (Bệnh thán thư)
-+ Downy Mildew (Bệnh sương mai)
-+ Mosaic Virus (Virus khảm)
-+ Healthy (Khỏe mạnh)
+- **Dữ liệu gốc**: X ảnh thu thập từ thực tế
+- **Tiền xử lý**:
+  + Sử dụng các scripts Python để đổi tên và xoay ảnh ($90^\circ, 180^\circ, 270^\circ$)
+  + Sử dụng Roboflow để tăng cường dữ liệu (Augmentation): lật, thay đổi độ sáng, thêm nhiễu, ...
+- **Tổng quan dữ liệu sau khi tăng cường**: ~ X ảnh
+- **Các lớp ảnh nhận diện**:
+  + Anthracnose (Bệnh thán thư)
+  + Downy Mildew (Bệnh sương mai)
+  + Mosaic Virus (Virus khảm)
+  + Healthy (Khỏe mạnh)
 
 ---
 
