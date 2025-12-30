@@ -1,0 +1,7 @@
+#Dataset
+data/raw
+data/processed
+
+#Weights
+models/weights/*.h5
+models/weights/*.pth
