@@ -1,5 +1,9 @@
 #Dataset
-data/raw
+data/raw/Anthracnose
+data/raw/Downy_Mildew
+data/raw/Healthy
+data/raw/Mosaic_Virus
+
 data/interim
 data/processed
 
