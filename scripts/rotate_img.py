@@ -23,7 +23,14 @@ def rotate_images_in_directory(directory, angle):
             img = Image.open(source_path)
             rotated = img.rotate(angle, expand=True)
             rotated.save(save_path)
-            #print(f"Đã xoay: {filename}")
+
+            # Đổi tên ảnh đã xoay
+            file_extension = os.path.splitext(filename)[1]
+            new_filename = f"{os.path.splitext(filename)[0]}_rot{angle}{file_extension}"
+            new_save_path = os.path.join(save_folder, new_filename)
+            os.rename(save_path, new_save_path)
+            print(f"Đã xoay: {filename} -> {new_filename}")
+
         except Exception as e:
             print(f"Lỗi với {filename}: {e}")
 
@@ -34,7 +41,7 @@ if __name__ == "__main__":
 
     # Nhập góc xoay
     try:
-        angle = int(input("Nhập góc xoay (VD: 90, 180, 270): ").strip())
+        angle = int(input("Nhập góc xoay (VD: 90, 180, 360): ").strip())
     except:
         print("Góc không hợp lệ!")
         exit()

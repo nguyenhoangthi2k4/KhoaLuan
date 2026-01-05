@@ -37,8 +37,8 @@ Do đặc thù dữ liệu nông nghiệp khan hiếm, dự án được thực 
 ├── app/                    # Web Demo 
 │   └── main.py
 ├── data/                   # Quản lý dữ liệu 
-│   ├── raw/                # Ảnh gốc 
-|   ├── interim/            # Ảnh trung gian 
+│   ├── raw/                # Ảnh gốc (255)
+|   ├── interim/            # Ảnh trung gian (1020)
 │   └── processed/          # Dữ liệu sau Augmentation
 ├── docs/                   # Báo cáo PDF và Slide
 ├── models/                 # Lưu trữ file trọng số (.h5, .pth)

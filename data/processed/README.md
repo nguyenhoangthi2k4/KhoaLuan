@@ -14,5 +14,5 @@ Dữ liệu sau khi tiền xử lý và tăng cường (augmentation) từ tập
 ## Quy mô
 - Tổng số ảnh sau augmentation: ~ X ảnh
 
-## 🔗 Link truy cập dữ liệu
+## Link truy cập dữ liệu
 https://drive.google.com/xxxxx
