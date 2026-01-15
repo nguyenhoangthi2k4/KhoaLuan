@@ -1,16 +1,12 @@
-# rename tên các file img trong thư mục thành dạng số thứ tự 1, 2, 3, ... cùng với file rename.py
 import os
 def rename_images_in_directory(directory):
-    # Lấy danh sách tất cả các file trong thư mục
     files = os.listdir(directory)
-    
-    image_files = [f for f in files if f.lower().endswith(('.png', '.jpg', '.jpeg', '.gif', '.bmp'))]
-    
+    image_files = [f for f in files if f.lower().endswith(('.png', '.jpg'))]
     image_files.sort()
+
     global name
 
     for index, filename in enumerate(image_files, start=1):
-
         file_extension = os.path.splitext(filename)[1]
         # Tạo tên mới theo định dạng số thứ tự
         new_name = f"{name}_{index}{file_extension}"
@@ -22,8 +18,10 @@ def rename_images_in_directory(directory):
 
 if __name__ == "__main__":
     global name
+    path = "data\\raw\\Anthracnose"
+
     name = input("Nhập tên cần thay đổi (default is 'image'): ") or "image"
-    current_directory = os.path.dirname(os.path.abspath(__file__))
+    current_directory = os.path.abspath(path)
     rename_images_in_directory(current_directory)
 
     print("Hoàn tất.")

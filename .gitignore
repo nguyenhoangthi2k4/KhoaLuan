@@ -3,6 +3,7 @@ data/raw/Anthracnose
 data/raw/Downy_Mildew
 data/raw/Healthy
 data/raw/Mosaic_Virus
+data/raw/*
 
 data/interim
 
@@ -14,3 +15,5 @@ data/processed/Mosaic_Virus
 #Weights
 models/weights/*.h5
 models/weights/*.pth
+
+output_tiles/*
